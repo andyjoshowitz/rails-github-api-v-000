@@ -1,6 +1,5 @@
 <div class = "container">
   <h1><%=session[:username]%> Repos</h1>
-  <!-- List repositories here! -->
   <% if @repos.size > 0 %>
     <ul>
       <% @repos.each do |repo| %>
